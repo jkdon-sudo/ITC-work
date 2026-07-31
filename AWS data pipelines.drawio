@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="5">
+<mxfile host="app.diagrams.net" pages="6">
   <diagram name="Page-1" id="0n3PmJLlKcIkTfyNOaFH">
     <mxGraphModel dx="5107" dy="5485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -442,7 +442,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mmDZcY7gdey1hjpHhoBH" name="Batch processing data pipeline">
-    <mxGraphModel dx="1017" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="708" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -485,8 +485,8 @@
         <mxCell id="KzYUj_loSlb5KKM10tg3-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;BATCH PROCESSING DATA PIPELINE&lt;/font&gt;&lt;/b&gt;" vertex="1">
           <mxGeometry height="60" width="730" x="50" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="FYQPlM9re0uJPW48URx3-1" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Heres where&amp;nbsp;&lt;div&gt;the files are&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="120" x="420" y="120" as="geometry" />
+        <mxCell id="a51B9qEOcmQzmgd7EJ3j-1" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="says where the&amp;nbsp;&lt;div&gt;files are&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="420" y="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -535,8 +535,60 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="wj-3Jgos0maa4qTUcxfs" name="Page-5">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="wj-3Jgos0maa4qTUcxfs" name="Database Migration">
+    <mxGraphModel dx="1438" dy="962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9KIpXo924aV8yUjAwXRk-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;STEP 1: THE SCHEMA&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="9KIpXo924aV8yUjAwXRk-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;STEP 2: THE DATA&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="9KIpXo924aV8yUjAwXRk-12" edge="1" parent="1" source="9KIpXo924aV8yUjAwXRk-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9KIpXo924aV8yUjAwXRk-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9KIpXo924aV8yUjAwXRk-7" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/sql_server.svg;" value="SQL server&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="179.87" width="138.5" x="140" y="575.73" as="geometry" />
+        </mxCell>
+        <mxCell id="9KIpXo924aV8yUjAwXRk-8" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.rds;" value="RDS PostgreSQL&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="138.5" width="138.5" x="607" y="260.68" as="geometry" />
+        </mxCell>
+        <mxCell id="9KIpXo924aV8yUjAwXRk-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;DATABASE MIGRATION&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="608.5" x="109" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9KIpXo924aV8yUjAwXRk-13" edge="1" parent="1" source="9KIpXo924aV8yUjAwXRk-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="607" y="665.6599999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9KIpXo924aV8yUjAwXRk-11" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.dms_data_management_service;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Database management service (DMS)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="171.32" width="165.9" x="360" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="oj0tAGIH7TKUpJUHUSMr-1" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.rds;" value="RDS PostgreSQL&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="138.5" width="138.5" x="607" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="oj0tAGIH7TKUpJUHUSMr-7" edge="1" parent="1" source="oj0tAGIH7TKUpJUHUSMr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oj0tAGIH7TKUpJUHUSMr-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oj0tAGIH7TKUpJUHUSMr-2" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/sql_server.svg;" value="SQL server&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="179.87" width="138.5" x="109" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="oj0tAGIH7TKUpJUHUSMr-8" edge="1" parent="1" source="oj0tAGIH7TKUpJUHUSMr-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9KIpXo924aV8yUjAwXRk-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oj0tAGIH7TKUpJUHUSMr-5" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.sca_smart_conversation_analysis_02;" value="" vertex="1">
+          <mxGeometry height="179.87" width="178.91" x="329" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="oj0tAGIH7TKUpJUHUSMr-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Schema conversion tool" vertex="1">
+          <mxGeometry height="30" width="60" x="384" y="430" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CkbH8unco0qfCpQClpq5" name="Page-6">
+    <mxGraphModel dx="647" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
