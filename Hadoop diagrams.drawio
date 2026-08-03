@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" pages="5">
+<mxfile host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" pages="6">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Hadoop basic architecture overview">
     <mxGraphModel dx="1264" dy="1693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="light-dark(#ffffff, #121212)" math="0" shadow="1">
       <root>
@@ -76,10 +76,65 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JKbuLUaW-1reAr1lQMfW" name="HDFS STORAGE">
-    <mxGraphModel dx="632" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1094" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3N3y-P0rzOQTQ_wcEjr6-4" edge="1" parent="1" source="3N3y-P0rzOQTQ_wcEjr6-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="3N3y-P0rzOQTQ_wcEjr6-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3N3y-P0rzOQTQ_wcEjr6-12" connectable="0" parent="3N3y-P0rzOQTQ_wcEjr6-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="splits actual&lt;div&gt;data into&lt;/div&gt;&lt;div&gt;blocks&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0541" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3N3y-P0rzOQTQ_wcEjr6-1" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.external_sdk;" value="Name Node" vertex="1">
+          <mxGeometry height="112.41" width="98" x="10" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="3N3y-P0rzOQTQ_wcEjr6-5" edge="1" parent="1" source="3N3y-P0rzOQTQ_wcEjr6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="3N3y-P0rzOQTQ_wcEjr6-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3N3y-P0rzOQTQ_wcEjr6-13" connectable="0" parent="3N3y-P0rzOQTQ_wcEjr6-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="store on node" vertex="1">
+          <mxGeometry relative="1" x="-0.1946" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3N3y-P0rzOQTQ_wcEjr6-2" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elastic_block_store;" value="Data blocks" vertex="1">
+          <mxGeometry height="88" width="88" x="200" y="302.2" as="geometry" />
+        </mxCell>
+        <mxCell id="3N3y-P0rzOQTQ_wcEjr6-3" parent="1" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=node" value="Data node" vertex="1">
+          <mxGeometry height="112.41" width="117.09" x="380" y="289.99999999999994" as="geometry" />
+        </mxCell>
+        <mxCell id="3N3y-P0rzOQTQ_wcEjr6-16" edge="1" parent="1" source="3N3y-P0rzOQTQ_wcEjr6-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="3N3y-P0rzOQTQ_wcEjr6-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3N3y-P0rzOQTQ_wcEjr6-6" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elastic_block_store;" value="Data blocks" vertex="1">
+          <mxGeometry height="88" width="88" x="540" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3N3y-P0rzOQTQ_wcEjr6-17" edge="1" parent="1" source="3N3y-P0rzOQTQ_wcEjr6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="3N3y-P0rzOQTQ_wcEjr6-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3N3y-P0rzOQTQ_wcEjr6-7" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elastic_block_store;" value="Data blocks" vertex="1">
+          <mxGeometry height="88" width="88" x="550" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="3N3y-P0rzOQTQ_wcEjr6-8" edge="1" parent="1" source="3N3y-P0rzOQTQ_wcEjr6-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="3N3y-P0rzOQTQ_wcEjr6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3N3y-P0rzOQTQ_wcEjr6-9" edge="1" parent="1" source="3N3y-P0rzOQTQ_wcEjr6-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="3N3y-P0rzOQTQ_wcEjr6-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3N3y-P0rzOQTQ_wcEjr6-11" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="checks for&amp;nbsp;&lt;div&gt;metadata&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="30" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="3N3y-P0rzOQTQ_wcEjr6-14" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Blocks replicated" vertex="1">
+          <mxGeometry height="80" width="80" x="540" y="309" as="geometry" />
+        </mxCell>
+        <mxCell id="3N3y-P0rzOQTQ_wcEjr6-15" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.external_sdk;" value="Name Node" vertex="1">
+          <mxGeometry height="112.41" width="98" x="720" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="3N3y-P0rzOQTQ_wcEjr6-18" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="records where&lt;div&gt;&amp;nbsp;they are&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="770" y="190" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -176,6 +231,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kL1URGvlYP_Q6CIRlyMp-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="390" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="kL1URGvlYP_Q6CIRlyMp-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Input in HDFS → Input Splits → Map → Shuffle and Sort → Reduce → output saved to HDFS" vertex="1">
+          <mxGeometry height="60" width="760" x="40" y="210" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -226,6 +287,17 @@
         </mxCell>
         <mxCell id="6so5GRyfZflQYPZGcla5-14" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Runs tasks" vertex="1">
           <mxGeometry height="80" width="120" x="690" y="200.88" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1Fn10oEkmQCG8Kbnh8NN" name="Hive">
+    <mxGraphModel dx="766" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1BAF7256c3rtqzTEN44V-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="HiveQL query → Hive checks the Metastore → processing engine runs the work → data read from HDFS → result returned or saved" vertex="1">
+          <mxGeometry height="60" width="720" x="40" y="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
