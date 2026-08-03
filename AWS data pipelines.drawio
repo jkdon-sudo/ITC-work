@@ -720,7 +720,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b3FqGStTDIH31Qg26Cp_" name="SQS queues">
-    <mxGraphModel dx="745" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1572" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -728,39 +728,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HCY-CkvRNKq5RtQ90cUh-1" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/user.svg;" value="User Request" vertex="1">
-          <mxGeometry height="158.11" width="58.5" x="50" y="170" as="geometry" />
+          <mxGeometry height="158.11" width="58.5" y="170" as="geometry" />
         </mxCell>
         <mxCell id="HCY-CkvRNKq5RtQ90cUh-5" edge="1" parent="1" source="HCY-CkvRNKq5RtQ90cUh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HCY-CkvRNKq5RtQ90cUh-3" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HCY-CkvRNKq5RtQ90cUh-2" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" value="SQS" vertex="1">
-          <mxGeometry height="78" width="78" x="160" y="210.06" as="geometry" />
+          <mxGeometry height="78" width="78" x="110" y="210.06" as="geometry" />
         </mxCell>
         <mxCell id="HCY-CkvRNKq5RtQ90cUh-7" edge="1" parent="1" source="HCY-CkvRNKq5RtQ90cUh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HCY-CkvRNKq5RtQ90cUh-6" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HCY-CkvRNKq5RtQ90cUh-3" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudwatch_2;" value="cloudwatch" vertex="1">
-          <mxGeometry height="78" width="78" x="310" y="210.06" as="geometry" />
+          <mxGeometry height="78" width="78" x="260" y="210.06" as="geometry" />
         </mxCell>
-        <mxCell id="HCY-CkvRNKq5RtQ90cUh-15" edge="1" parent="1" source="HCY-CkvRNKq5RtQ90cUh-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HCY-CkvRNKq5RtQ90cUh-12" value="">
+        <mxCell id="HCY-CkvRNKq5RtQ90cUh-19" edge="1" parent="1" source="HCY-CkvRNKq5RtQ90cUh-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HCY-CkvRNKq5RtQ90cUh-18" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HCY-CkvRNKq5RtQ90cUh-16" connectable="0" parent="HCY-CkvRNKq5RtQ90cUh-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="processes" vertex="1">
-          <mxGeometry relative="1" x="-0.3613" y="-1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="HCY-CkvRNKq5RtQ90cUh-6" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.auto_scaling3;" value="Autoscaling" vertex="1">
-          <mxGeometry height="78" width="78" x="450" y="210.06" as="geometry" />
+          <mxGeometry height="78" width="78" x="400" y="210.06" as="geometry" />
         </mxCell>
         <mxCell id="HCY-CkvRNKq5RtQ90cUh-8" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="stores request" vertex="1">
-          <mxGeometry height="80" width="120" x="139" y="110" as="geometry" />
+          <mxGeometry height="80" width="120" x="89" y="110" as="geometry" />
         </mxCell>
-        <mxCell id="HCY-CkvRNKq5RtQ90cUh-9" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="checks if&amp;nbsp;&lt;div&gt;nodes have enough&lt;/div&gt;&lt;div&gt;resources&lt;/div&gt;" vertex="1">
-          <mxGeometry height="92.67" width="139" x="280" y="91" as="geometry" />
+        <mxCell id="HCY-CkvRNKq5RtQ90cUh-9" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="checks how many&lt;div&gt;requests are pending&lt;/div&gt;" vertex="1">
+          <mxGeometry height="92.67" width="139" x="230" y="91" as="geometry" />
         </mxCell>
-        <mxCell id="HCY-CkvRNKq5RtQ90cUh-10" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="provides more&lt;div&gt;resources, if&lt;/div&gt;&lt;div&gt;needed&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="120" x="440" y="103.67" as="geometry" />
+        <mxCell id="HCY-CkvRNKq5RtQ90cUh-10" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="provides more&lt;div&gt;EC2 servers, if&lt;/div&gt;&lt;div&gt;needed&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="390" y="103.67" as="geometry" />
         </mxCell>
         <mxCell id="HCY-CkvRNKq5RtQ90cUh-11" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/user.svg;" value="User&amp;nbsp;" vertex="1">
           <mxGeometry height="158.11" width="58.5" x="760" y="170" as="geometry" />
@@ -769,10 +764,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HCY-CkvRNKq5RtQ90cUh-12" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" value="SQS" vertex="1">
-          <mxGeometry height="78" width="78" x="609" y="210.06" as="geometry" />
+          <mxGeometry height="78" width="78" x="650" y="210.06" as="geometry" />
         </mxCell>
-        <mxCell id="HCY-CkvRNKq5RtQ90cUh-13" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="stores response" vertex="1">
-          <mxGeometry height="86" width="129" x="590" y="104" as="geometry" />
+        <mxCell id="HCY-CkvRNKq5RtQ90cUh-13" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="stores completed response" vertex="1">
+          <mxGeometry height="86" width="129" x="624.5" y="100.67" as="geometry" />
+        </mxCell>
+        <mxCell id="HCY-CkvRNKq5RtQ90cUh-20" edge="1" parent="1" source="HCY-CkvRNKq5RtQ90cUh-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HCY-CkvRNKq5RtQ90cUh-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HCY-CkvRNKq5RtQ90cUh-18" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ecs;" value="EC2 processing servers&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="78" width="78" x="530" y="210.06" as="geometry" />
+        </mxCell>
+        <mxCell id="HCY-CkvRNKq5RtQ90cUh-21" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="processes data&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="120" x="509" y="106.66999999999999" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
