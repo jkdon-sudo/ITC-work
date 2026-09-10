@@ -1,0 +1,7 @@
+department,designation,emp_id,name,salary,country
+it,software,1,manish,10000,india
+sales,"data analyst",2,rani,20000,usa
+sales,marketing,5,,20000,usa
+other,trainer,3,rinku,55000,india
+it,"data analyst",4,neha,12000,usa
+it,"data analyst",6,rahul,0,india
